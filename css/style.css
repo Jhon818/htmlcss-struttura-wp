@@ -41,6 +41,7 @@ footer{
     width: 100%;
     background-color: blue;
     margin: 0% auto;
+    padding-bottom: 10px;
 }
 
 aside.left{
