@@ -44,22 +44,23 @@ footer{
 }
 
 aside.left{
-    width:calc(100%/5) ;
+    width:calc((100% / 5) - 20px);
     float: left;
     background-color: royalblue;
 }
 aside.right{
-    width:calc(100%/5) ;
-    float: right;
+    width:calc((100% / 5) - 20px) ;
+    float: left;
     background-color: royalblue;
 }
 
  /* content */
 
  .content{
-     width:calc((100%/5)-20px) ;
+     width:calc(100% / 5 * 3) ;
      background-color: royalblue;
-     
+     float: left;
+     margin:0 20px;
 
  }
 
